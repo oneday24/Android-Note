@@ -29,3 +29,10 @@ android知识的一些笔记
 |              | 4.1.2  | 16   |
 |              | 4.0.3  | 15   |
 |              | 4.0    | 14   |
+
+## configure ide
+    Help-Edit Custom VM Options
+    -Xms4g
+    -Xmx4g
+    -XX:ReservedCodeCacheSize=2048m
+    -XX:+UseCompressedOops
